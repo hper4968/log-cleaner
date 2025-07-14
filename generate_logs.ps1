@@ -1,5 +1,5 @@
 param(
-    [string]$LogDirectory = "C:<file-path>\Logs",
+    [string]$LogDirectory = "<your-path>\Logs",
     [int]$NumberOfFiles = 10
 )
 

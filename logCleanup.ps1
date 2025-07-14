@@ -1,7 +1,8 @@
 param(
     [int]$DaysOld = 30,
-    [string]$LogDirectory = "C:<file-path>\Logs",  # Change to your actual log path
-    [string]$ReportPath = "C:<file-path>\deleted_log_report.txt"  # Optional: report file
+    [string]$LogDirectory = "C:<your-path>",  
+    [string]$ReportPath = "C:<your-path>\deleted_log_report.txt",
+    [string]$S3BucketPath = "s3://<s3-bucket>/logs/"
 )
 
 # Ensure the directory exists
@@ -43,3 +44,7 @@ $reportLines | Out-File -FilePath $ReportPath -Encoding UTF8
 
 Write-Host "Cleanup complete. Deleted $($filesToDelete.Count) files."
 Write-Host "Report written to: $ReportPath"
+
+
+Write-Host "Uploading report to S3: $S3BucketPath"
+aws s3 cp $ReportPath $S3BucketPath
