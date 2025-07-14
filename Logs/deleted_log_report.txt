@@ -1,0 +1,12 @@
+﻿Log Cleanup Report - 07/14/2025 06:13:48
+Deleted Files:
+C:\Users\hper4968\OneDrive - Sysco Corporation\Desktop\My\log-cleanup\Logs\mock_log_10.log (LastModified: 06/08/2025 06:12:34)
+C:\Users\hper4968\OneDrive - Sysco Corporation\Desktop\My\log-cleanup\Logs\mock_log_3.log (LastModified: 06/24/2025 06:12:34)
+C:\Users\hper4968\OneDrive - Sysco Corporation\Desktop\My\log-cleanup\Logs\mock_log_4.log (LastModified: 06/17/2025 06:12:34)
+C:\Users\hper4968\OneDrive - Sysco Corporation\Desktop\My\log-cleanup\Logs\mock_log_6.log (LastModified: 05/31/2025 06:12:34)
+C:\Users\hper4968\OneDrive - Sysco Corporation\Desktop\My\log-cleanup\Logs\mock_log_7.log (LastModified: 05/19/2025 06:12:34)
+C:\Users\hper4968\OneDrive - Sysco Corporation\Desktop\My\log-cleanup\Logs\mock_log_8.log (LastModified: 07/10/2025 06:12:34)
+C:\Users\hper4968\OneDrive - Sysco Corporation\Desktop\My\log-cleanup\Logs\mock_log_9.log (LastModified: 06/28/2025 06:12:34)
+
+Total Deleted Size: 0.01 MB
+Freed Disk Space Percentage: 0 %
